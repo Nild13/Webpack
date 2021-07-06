@@ -7,7 +7,8 @@
     "dev": "webpack --mode development",
     "test1": "webpack ./src/app.js --mode=none",
     "test2": "webpack ./src/app.js -o build/main2.js --mode production",
-    "test3": "webpack --entry ./src/app.js --output ./build2/main3.js --mode production"
+    "test3": "webpack --entry ./src/app.js -o build2/main5.js --mode production",
+    "test4": "webpack --output-path=bundles3 --mode=development"
   },
   "keywords": [],
   "author": "",

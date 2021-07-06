@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("działam po bundlingu"),document.querySelector("body").textContent="działam heh xD"})();
